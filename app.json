@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "AppShaker",
+    "slug": "appshaker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#14100C",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#14100C"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.appshaker.taxidermy"
+    },
+    "android": {
+      "package": "com.appshaker.taxidermy",
+      "permissions": [
+        "android.permission.INTERNET"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-sqlite",
+      [
+        "expo-av",
+        {
+          "androidVideoPermissions": []
+        }
+      ]
+    ]
+  }
+}
